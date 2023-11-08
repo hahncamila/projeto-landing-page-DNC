@@ -1,0 +1,168 @@
+*{
+    font-family:'Inter';
+    margin:0;
+}
+
+
+
+/* menu superior */
+
+
+
+#imgLogo{
+    margin-top:52px;
+    margin-left:56px;
+}
+
+#menusuperior{
+    color:aliceblue;
+    background-image: url(img/fundo.svg);
+}
+
+.titulo-menusuperior{
+    width:536px;
+    height:102px;
+    margin-top:185px;
+    margin-left:172px;
+    font-size: 40px;
+    line-height: 51.4px;
+}
+
+.texto-menusuperior{
+    width:536px;
+    height:90px;
+    padding-top:32px;
+    padding-bottom:151px;
+    margin-left:172px;
+    font-size:20px;
+    line-height:30px;
+}
+
+
+
+/* menu informacional */
+
+
+
+#menuinformacional{
+    background-color:#EAECE5;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 64px 0px 64px 172px;
+    padding: 16px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* menu video */
+
+
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 50px 25px 50px 172px;
+}
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+
+/* carrossel */
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+   margin-top: 55%;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+
+/* formulário */
+
+
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247ba0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #329fcd;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #104257;
+    transition-duration: 0.5s;
+}
